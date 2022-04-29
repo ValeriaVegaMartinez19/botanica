@@ -1,0 +1,121 @@
+.container {
+  max-width: 1100px;
+}
+body{
+  overflow-x: hidden
+  }
+  header {
+    background-image: url('img/1.jpg');
+    background-size: cover;
+    height: 650px;
+    position: relative;
+  }
+  .navbar-nav{
+    background-color: rgba(245, 103, 8, 0);;
+    background-blend-mode: soft-light;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;    
+      padding-left: 16px;    
+  }
+  .card-body img {
+    height: 7rem;
+    width: 7rem;
+   }
+  
+  .title-color{
+    color: #fcfcfc;
+  }
+  
+  .h5{
+    color: #ff6f00;
+  }
+  .title {
+    color: #f9fafd;
+    font-size: 64px;
+    position: relative;
+    text-align: center;
+    top: 30%;
+    transform: translateY(-10%);
+    transform: translateX(80%);
+  }
+  .c4{
+    height: 10rem;
+    width: 5rem;
+  }
+  .Q-B{
+    color: #fcfcfc;
+    font-size: 20px;
+    }
+  
+  .btn {
+    background-color: #ff6f00;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .p {
+  color: #f9fafd;
+  font-size: 18px;
+  position: absolute;
+  text-align: center;
+  top: 40%;  
+  }
+  footer{
+    background-color: rgba(240, 240, 240, 0.659);
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
+  
+  footer a{
+    text-decoration: none;
+    color: white;
+  }  
+
+  footer{
+    background-color: rgb(128, 124, 124);
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+  }
+  
+  footer a{
+    text-decoration: none;
+    color: white;
+  }
+  @media(max-width:992px){
+    .navbar-nav{
+        background-color: rgb(236, 119, 24);
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;    
+        padding-left: 20px;    
+    }
+    header {
+      background-image: url('img/1.jpg');
+      background-size: cover;
+     width: 100%;
+      position: relative;
+    }
+    
+  .title {
+    color: #f9fafd;
+    font-size: 64px;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    transform: translateY(-30%);
+    transform: translateX(30%);
+  }
+    .card-body img {
+      height: 7rem;
+      width: 7rem;
+     }
+    
+    .title-color{
+      color: #fcfcfc;
+    }
+    
+}
+nav{
+    z-index: 100;
+  }
